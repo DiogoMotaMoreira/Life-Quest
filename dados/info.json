@@ -1,0 +1,16 @@
+{
+  "nivel": 3,
+  "xp": 450,
+  "quests": [
+    {"nome": "Estudar 1h", "xp": 30, "feito": true},
+    {"nome": "Trabalhar na app", "xp": 50, "feito": false}
+  ],
+  "habitos": [{
+    "data": "2025-06-05",
+    "estudo": 2,
+    "trabalho": 0,
+    "sono": false,
+    "tarefas_diarias": false,
+    "xp_habitos_diario": 15
+  }]
+}
