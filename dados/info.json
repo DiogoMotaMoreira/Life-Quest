@@ -1,16 +1,76 @@
 {
-  "nivel": 3,
-  "xp": 450,
-  "quests": [
-    {"nome": "Estudar 1h", "xp": 30, "feito": true},
-    {"nome": "Trabalhar na app", "xp": 50, "feito": false}
-  ],
-  "habitos": [{
-    "data": "2025-06-05",
-    "estudo": 2,
-    "trabalho": 0,
-    "sono": false,
-    "tarefas_diarias": false,
-    "xp_habitos_diario": 15
-  }]
+    "image": "https://images.vexels.com/media/users/3/140800/isolated/preview/86b482aaf1fec78a3c9c86b242c6ada8-man-profile-avatar.png",
+    "name": "Diogo Moreira",
+    "level": 3,
+    "xp": 450,
+    "coins": 0,
+    "stats": {
+        "Força": 0,
+        "Vitalidade": 0,
+        "Inteligência": 0,
+        "Sabedoria": 0,
+        "Carisma": 0,
+        "Destreza": 0,
+        "Sorte": 0
+    },
+    "mainQuest": {
+        "nome": "Não deixar cadeiras para o próximo ano",
+        "recompensas": {
+            "coins": 1000,
+            "xp": 500
+        }
+    },
+    "quests": [
+        {
+            "nome": "Criar a LifeQuest App",
+            "dificuldade": 3,
+            "xp": 600,
+            "coins": 60,
+            "feito": false
+        },
+        {
+            "nome": "Seguir uma organização calendário durante 1 mês",
+            "dificuldade": 1,
+            "xp": 200,
+            "coins": 20,
+            "feito": false
+        },
+        {
+            "nome": "Cria website de vendas website",
+            "dificuldade": 3,
+            "xp": 600,
+            "coins": 60,
+            "feito": false
+        },
+        {
+            "nome": "Cria website de vendas TI",
+            "dificuldade": 3,
+            "xp": 600,
+            "coins": 60,
+            "feito": false
+        }
+    ],
+    "habitos": [
+        {
+            "data": "2025-06-05",
+            "estudo": 4,
+            "trabalho": 3,
+            "sono": true,
+            "tarefas_diarias": true
+        },
+        {
+            "data": "2025-06-06",
+            "estudo": 3,
+            "trabalho": 2,
+            "sono": true,
+            "tarefas_diarias": true
+        },
+        {
+            "data": "2025-06-07",
+            "estudo": 0,
+            "trabalho": 2,
+            "sono": false,
+            "tarefas_diarias": false
+        }
+    ]
 }
